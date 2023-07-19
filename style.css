@@ -452,5 +452,28 @@ footer{
     .footer-nav1 ul, .footer-nav2 ul{
         gap: 0px;
     }
+    .hero-info{
+        background-image: url(images/Group\ 66.png);
+        background-repeat: no-repeat;
+        padding: 120px 0px;
+        background-size: contain;
+        padding-left: 10px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .hero-list{
+        gap:10px;
+    }
+    .hero-images{
+        width: 50%;
+    }
+    .hero-info h1{
+        font-size: 36px;
+    }
+    .play-games-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 /* tablet responsive code end here */
