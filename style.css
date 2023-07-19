@@ -189,10 +189,34 @@ header{
 
 .card{
     width: 22%;
+    position: relative;
 }
 
 .card img{
     width: 100%;
+}
+
+.card:hover .hover-icon{
+    opacity: 1;
+}
+
+/* .card img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 90;
+} */
+
+.hover-icon{
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transition: .5s ease;
 }
 
 .card p{
@@ -405,3 +429,13 @@ footer{
     }
 }
 /* mobile responsive code end here */
+
+/* tablet responsive code start here */
+@media only screen and (max-width: 768px) and (min-width: 426px)  {
+    .container{
+        width: 100%;
+    }
+}
+
+
+/* tablet responsive code end here */
