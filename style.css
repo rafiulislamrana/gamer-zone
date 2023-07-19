@@ -26,6 +26,10 @@ p{
     text-decoration: none;
 }
 
+.none{
+    display: none;
+}
+
 /* global style end*/
 header{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -353,8 +357,51 @@ footer{
     .hero-info{
         background-image: url(images/Group\ 66.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        padding: 120px 0px;
+        background-size: cover;
+    }
+    .online-games-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
     
+    }
+    .card{
+        width: 80%;
+        padding-bottom: 30px;
+    }
+    .card p{
+        text-align: center;
+    }
+    .play-games-container{
+        flex-direction: column-reverse;
+    }
+    .play-games-images{
+        width: 80%;
+    }
+    .play-games-info{
+        width: 80%;
+    }
+    .online-games-info{
+        display: block;
+        text-align: center;
+    }
+    .button-hover-container{
+        gap: 5px;
+    }
+    .button-hover-box{
+        width: 25%;
+        gap: 5px;
+    }
+    .button-hover-box img{
+        width: 30%;
+    }
+    .button-hover-box span{
+        font-size: 14px;
+    }
+    .footer-nav1 ul, .footer-nav2 ul{
+        flex-wrap: wrap;
     }
 }
 /* mobile responsive code end here */
