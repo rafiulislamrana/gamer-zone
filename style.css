@@ -475,5 +475,9 @@ footer{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .header-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 /* tablet responsive code end here */
