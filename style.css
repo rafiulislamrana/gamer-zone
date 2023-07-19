@@ -258,6 +258,67 @@ header{
     color: #FF42A5;
 }
 
+footer{
+    padding: 120px 0px;
+    background-color: #0B0223;
+    display: block;
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 56px;
+}
+
+.footer-container nav li{
+    list-style: none;
+}
+
+.footer-nav1 ul, .footer-nav2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-nav1 li{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-nav2 li{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-icon .fa-brands{
+    color: #fff;
+}
+
+.copyright{
+    padding-top: 18px;
+}
+
+.copyright span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 /* mobile responsive code start here */
 @media only screen and (max-width: 425px) {
